@@ -5,7 +5,7 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 body #logo{
-    margin: 30px 0 30px;
+    margin: 30px 0px 30px;
 }
 #logo a{
    padding-bottom: 15px; 
