@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Gentle Birth Care
+owner: Fusion Salon # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: your-email@domain.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+social:
+  #twitter: https://twitter.com/<username>
+  #github: https://github.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+navigation:
+ - url: "/"
+   name: Home
+   file: "/index.html"
+   icon: "ti-home"
+ - url: "/about.html"
+   name: Services
+   file: "/services.html"
+   icon: "ti-info"
+ - url: "/"
+   name: Why Home Birth?
+   file: "/why-home-birth.html"
+   icon: "ti-thumb-up"
+ - url: "/"
+   name: Meet the Team
+   file: "/team.html"
+   icon: "ti-heart"
+ - url: "/maps.html"
+   name: Contact
+   file: "/contact.html"
+   icon: "ti-email"
+   
+collections:
+  profiles:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "stylists"
+    values:
+      layout: "stylist"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "profiles"
+    values:
+      layout: "profile"
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
