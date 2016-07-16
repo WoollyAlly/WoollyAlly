@@ -4,7 +4,10 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
-body #logo{
+
+@media (min-width: 992px)
+.side-header #logo {
+    
     margin: 30px 0px 30px;
 }
 #logo a{
