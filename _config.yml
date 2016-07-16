@@ -3,7 +3,7 @@
 
 # Site settings
 title: Gentle Birth Care
-owner: Fusion Salon # or company name
+owner: Gentle Birth Care # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -40,23 +40,6 @@ collections:
   profiles:
     output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "stylists"
-    values:
-      layout: "stylist"
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "profiles"
-    values:
-      layout: "profile"
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
