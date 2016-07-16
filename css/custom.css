@@ -22,3 +22,7 @@
     left: 0;
     z-index: 1;
 }
+
+body .side-header #header{
+    border:none;
+}
