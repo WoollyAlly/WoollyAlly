@@ -5,7 +5,6 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
-@media (min-width: 992px)
 .side-header #logo {
     margin: 30px 0px 30px;
 }
