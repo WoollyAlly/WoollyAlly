@@ -39,6 +39,11 @@
     font-family: 'Shadows Into Light', cursive;
 }
 
+
+ .heading-block h2 {
+    font-size:40px;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
 }
