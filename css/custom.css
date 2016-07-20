@@ -28,6 +28,10 @@
     border:none;
 }
 
+.heading-block {
+    margin-bottom: 30px;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
 }
