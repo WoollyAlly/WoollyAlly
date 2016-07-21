@@ -13,6 +13,11 @@
 }
 
 
+#header-img{
+    max-width:400px;
+}
+
+
 .side-header #logo {
     margin: 30px 0px 30px;
 }
