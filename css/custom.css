@@ -84,7 +84,8 @@ body{
     border:none;
 }
 #footer .footer-widgets-wrap {
-    padding: 40px 0;
+    
+    padding-bottom: 0px;
 }
 
 .footer-logo {
