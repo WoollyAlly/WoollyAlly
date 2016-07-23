@@ -83,6 +83,9 @@ body{
 #footer {
     border:none;
 }
+#footer .footer-widgets-wrap {
+    padding: 40px 0;
+}
 
 .footer-logo {
     max-width: 70%;
