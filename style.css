@@ -8027,6 +8027,9 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: 217px;
+}
+.feature-box.media-box .fbox-media a,
+.feature-box.media-box .fbox-media img {
 	border: 1px solid #333;
 }
 
