@@ -4,8 +4,6 @@
 
 I began in the birthing business in 1985 when I became a Bradley teacher (AAHCC) in New York after the birth of my second son. My first 2 sons were born in hospitals, with certified nurse midwives. One in a birth center in Denver, and one in a Long Island Hospital.
 
-&nbsp;&nbsp;![](/uploads/kieser.jpeg)
-
 &nbsp;After that, I chose to deliver my last three babies at home, two girls in New York, and one (another son) here in Illinois. My oldest son is a severely disabled special needs individual, who has gifted the whole family with his love and many lessons on Life.
 
 &nbsp;&nbsp;
