@@ -1,5 +1,5 @@
 ---
-background_image_path: /images/gbc-14.jpg
+user_image: /images/gbc-14.jpg
 ---
 
 
