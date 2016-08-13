@@ -37,7 +37,7 @@ navigation:
    icon: "ti-email"
    
 collections:
-  profiles:
+  midwives:
     output: true
 
 
