@@ -25,9 +25,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "staff"
+      type: "midwives"
     values:
-      layout: "staff-member"
+      layout: "midwife-layout"
 
 
 # Build settings
