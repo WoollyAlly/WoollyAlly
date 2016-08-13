@@ -1,4 +1,5 @@
 ---
+background_image_path: /images/background.png
 ---
 
 
