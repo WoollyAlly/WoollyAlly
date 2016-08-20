@@ -19,6 +19,8 @@ social:
 collections:
   midwives:
     output: true
+  assistants:
+    output: true
 
 
 defaults:
@@ -28,6 +30,12 @@ defaults:
       type: "midwives"
     values:
       layout: "midwife-layout"
+  -
+    scope:
+      path: ""
+      type: "assistants"
+    values:
+      layout: "assistants-layout"
 
 
 # Build settings
