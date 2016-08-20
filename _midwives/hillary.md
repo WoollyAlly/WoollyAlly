@@ -2,6 +2,7 @@
 name: Hillary
 title_name: CNM (Certified Nurse Midwife)
 profile_image_path: /images/gbc-14.jpg
+mini_bio: Enter a mini bio.
 ---
 
 
