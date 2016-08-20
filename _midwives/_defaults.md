@@ -1,8 +1,8 @@
 ---
-name:
-content_title:
+name: Hillary
+title_name: CNM (Certified Nurse Midwife)
 profile_image_path:
+mini_bio: Enter a mini bio.
 ---
 
-
-Enter your information here
+Enter your bio here
