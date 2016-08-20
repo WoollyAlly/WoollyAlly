@@ -15,11 +15,7 @@ I studied herbal & homeopathic medicine, including several stays at Susan Weed's
 
 After moving to Illinois, 1991, I went to Loyola's Niehoff School of Nursing, to receive my second bachelors; a BSN (Bachelors of Science in Nursing), along with my previous BA in Anthropology from Univ. of Colorado, Boulder. For several years, I worked as a homebirth RN with Linda Graf's (CNM), practice Women's Health Ltd. Linda became my mentor, illustrating for me the art of patience & support for a laboring woman.
 
-&nbsp;&nbsp;
-
 Then came midwifery school and a MS at UIC, finally becoming a Certified Nurse Midwife in January 1999. After a couple of month's working as a homebirth CNM with Nancy Derrig, I chose to bring my skills to women laboring in a hospital setting.
-
-&nbsp;&nbsp;
 
 &nbsp;The increasing risk of unnecessary intervention in the hospital setting was the stimulus for Gayle Riedmann & myself to start West Suburban Midwife Associates, Ltd specializing in waterbirth in the Alternative Birth Center rooms at West Suburban Hospital in Oak Park. Our practice grew to become very successful, delivering about 230 women a year with only an 8-9% cesarean rate.
 
