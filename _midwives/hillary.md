@@ -1,5 +1,5 @@
 ---
-title: Hillary
+title: Hillary Test
 title_name: CNM (Certified Nurse Midwife)
 profile_image_path: /images/gbc-14.jpg
 mini_bio: Enter a mini bio.
@@ -18,7 +18,7 @@ After moving to Illinois, 1991, I went to Loyola's Niehoff School of Nursing, to
 
 Then came midwifery school and a MS at UIC, finally becoming a Certified Nurse Midwife in January 1999. After a couple of month's working as a homebirth CNM with Nancy Derrig, I chose to bring my skills to women laboring in a hospital setting.
 
-&nbsp;The increasing risk of unnecessary intervention in the hospital setting was the stimulus for Gayle Riedmann & myself to start West Suburban Midwife Associates, Ltd specializing in waterbirth in the Alternative Birth Center rooms at West Suburban Hospital in Oak Park. Our practice grew to become very successful, delivering about 230 women a year with only an 8-9% cesarean rate.
+The increasing risk of unnecessary intervention in the hospital setting was the stimulus for Gayle Riedmann & myself to start West Suburban Midwife Associates, Ltd specializing in waterbirth in the Alternative Birth Center rooms at West Suburban Hospital in Oak Park. Our practice grew to become very successful, delivering about 230 women a year with only an 8-9% cesarean rate.
 
 But the simplicity and peace of a homebirth cannot be substituted in a hospital setting. I returned to practice my art and follow my heart back to home birth midwifery by starting GentleBirth Care in February 2009.
 
