@@ -1,6 +1,6 @@
 ---
-name: Hillary Kieser CNM (Certified Nurse Midwife)
-content_title:Hillary Kieser CNM (Certified Nurse Midwife)
+name: Hillary
+content_title: Hillary Kieser CNM (Certified Nurse Midwife)
 profile_image_path: /images/gbc-14.jpg
 ---
 
