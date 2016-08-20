@@ -1,4 +1,6 @@
 ---
+name:
+title: This is a test
 profile_image_path: /images/gbc-10.jpg
 ---
 
