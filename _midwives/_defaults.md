@@ -1,5 +1,5 @@
 ---
-title:
+name:
 profile_image_path:
 ---
 
