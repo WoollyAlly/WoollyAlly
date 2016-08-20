@@ -1,6 +1,6 @@
 ---
 title: Test
-profile_image_path:
+profile_image_path: /images/gbc-10.jpg
 ---
 
 
