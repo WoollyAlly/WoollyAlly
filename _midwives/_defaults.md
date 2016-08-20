@@ -1,5 +1,6 @@
 ---
 name:
+content_title:
 profile_image_path:
 ---
 
