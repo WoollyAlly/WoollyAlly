@@ -1,5 +1,6 @@
 ---
-icon_image_path:
+title:
+profile_image_path:
 ---
 
 
