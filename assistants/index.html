@@ -1,0 +1,41 @@
+---
+layout: default
+---
+		<section id="content">
+
+				<!--Meet the midwives-->
+				<div class="section nobg notopmargin noborder bottommargin-sm">
+					<div class="container clearfix">
+                        <div class="fancy-title title-border">
+    						<h3>Meet the Assistants</h3>
+    					</div>
+					    <div class="row">
+                        {% for assistant in site.assistants %} 
+						<div class="col-md-6 bottommargin">
+
+							<div class="team team-list clearfix">
+								<div class="team-image">
+									<img src="{{ midwife.profile_image_path }}" alt="{{ midwife.title }}">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>{{midwife.title}}</h4><span>{{midwife.sub_title}}</span></div>
+									<div class="team-content">
+										<p>{{midwife.mini_bio}}</p>
+									</div>
+									<a href="{{midwife.url}}" data-lightbox="ajax">View more</a>
+								</div>
+							</div>
+
+						</div> 
+                        
+                        {% endfor %}
+
+					</div>
+
+					</div>
+				
+			
+			</div>
+
+		</section>
+		<!-- #content end -->
