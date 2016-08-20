@@ -93,3 +93,7 @@ body{
     max-width: 55%;
 }
 
+.portfolio-ajax-modal .content{
+    width:100%;
+}
+
