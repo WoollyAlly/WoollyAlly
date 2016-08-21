@@ -4,7 +4,10 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
-
+div.editable {
+    line-height: 1.8;
+    font-size:15px;
+}
 #header-text{
     text-shadow: 1px 1px #333;
     font-family:'Shadows Into Light',cursive;
