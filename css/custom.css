@@ -147,6 +147,12 @@ body{
         left: -260px;
     }
     
+    .side-header.open-header #header, .side-header.open-header #header-trigger, .side-header.open-header.push-wrapper #wrapper {
+        -webkit-transition: left .4s ease;
+        -o-transition: left .4s ease;
+        transition: left .4s ease;
+    }
+    
     .side-header.open-header #header-trigger {
         display: block;
         position: fixed;
