@@ -105,6 +105,11 @@ body{
 }
 
 @media (max-width: 991px){
+    
+    .side-header.open-header #wrapper, .side-header.open-header.side-header-open #header {
+        left: 0;
+    }
+    
     .side-header.open-header #header-trigger {
         display: block;
         position: fixed;
