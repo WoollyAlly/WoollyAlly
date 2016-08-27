@@ -179,4 +179,11 @@ body{
     .side-header.open-header #header-trigger i:nth-child(2), .side-header.open-header.side-header-open #header-trigger i:nth-child(1) {
         display: none;
     }
+    
+    .side-header #logo:not(.nobottomborder):after, .side-header #primary-menu:not(.nobottomborder):after {
+        display: block;
+        content: '';
+        width: 20%;
+        border-bottom: 1px solid #E5E5E5;
+    }
 }
