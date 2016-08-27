@@ -121,6 +121,6 @@ body{
         border-radius: 2px;
     }
     .side-header.open-header #header-trigger i:nth-child(1), .side-header.open-header.side-header-open #header-trigger i:nth-child(2) {
-    display: block;
-}
+        display: block;
+    }
 }
