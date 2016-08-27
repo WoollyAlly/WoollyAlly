@@ -105,7 +105,18 @@ body{
 }
 
 @media (max-width: 991px){
-    
+    .side-header #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 260px;
+        height: 100%;
+        height: calc(100vh);
+        border: none;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0,0,0,.065);
+    }
     .side-header.open-header #wrapper, .side-header.open-header.side-header-open #header {
         left: 0;
     }
