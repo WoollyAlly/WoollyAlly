@@ -334,7 +334,7 @@ body{
     }
     
     .side-header.open-header #header-trigger:hover {
-        background-color:green;
+        background-color:#1ABC9C;
     }
     
     .side-header.open-header.side-header-open #header-trigger {
