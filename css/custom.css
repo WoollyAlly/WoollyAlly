@@ -133,6 +133,7 @@ body{
     .side-header #logo {
         float: none;
         margin: 30px 0 30px !important;
+        height:auto !important;
     }
     
     .side-header #logo img {
