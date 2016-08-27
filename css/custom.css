@@ -117,6 +117,12 @@ body{
         overflow: hidden;
         box-shadow: 0 0 15px rgba(0,0,0,.065);
     }
+    .side-header #header-wrap {
+        width: 300px;
+        height: 100%;
+        overflow: auto;
+        padding-right: 40px;
+    }
     .side-header.open-header #wrapper, .side-header.open-header.side-header-open #header {
         left: 0;
     }
