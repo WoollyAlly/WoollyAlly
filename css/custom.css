@@ -135,10 +135,10 @@ body{
     margin: 60px 0 40px;
 }
 
-.side-header #primary-menu, .side-header #primary-menu ul {
-    float: none;
-    height: auto;
-}
+    .side-header #primary-menu, .side-header #primary-menu ul {
+        float: none;
+        height: auto;
+    }
     
     .side-header.open-header #wrapper, .side-header.open-header.side-header-open #header {
         left: 0;
@@ -161,6 +161,10 @@ body{
         background-color: #FFF;
         text-align: center;
         border-radius: 2px;
+    }
+    
+    .side-header.open-header.side-header-open #header-trigger {
+        left: 280px;
     }
     .side-header.open-header #header-trigger i:nth-child(1), .side-header.open-header.side-header-open #header-trigger i:nth-child(2) {
         display: block;
