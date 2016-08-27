@@ -104,7 +104,7 @@ body{
     padding: 20px 0;
 }
 
-@media (mx-width: 992px)
+@media (mAx-width: 992px)
 .side-header.open-header #header-trigger {
     display: block;
     position: fixed;
