@@ -118,7 +118,6 @@ body{
     	width: 260px;
     	height: 100%;
     	height: calc(100vh);
-    	background-color: #FFF;
     	border: none;
     	border-right: 1px solid #EEE;
     	overflow: hidden;
