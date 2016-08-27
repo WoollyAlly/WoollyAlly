@@ -138,7 +138,6 @@ body{
     
     .side-header.open-header #logo {
     	float: none;
-    	margin: 60px 0 40px;
     }
     
     .side-header.open-header #logo img { height: auto !important; }
