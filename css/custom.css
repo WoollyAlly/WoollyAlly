@@ -123,6 +123,13 @@ body{
         overflow: auto;
         padding-right: 40px;
     }
+    
+    .side-header #header .container {
+        width: 260px!important;
+        padding: 0 30px!important;
+        margin: 0!important;
+    }
+    
     .side-header.open-header #wrapper, .side-header.open-header.side-header-open #header {
         left: 0;
     }
