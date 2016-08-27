@@ -104,3 +104,19 @@ body{
     padding: 20px 0;
 }
 
+@media (mx-width: 992px)
+.side-header.open-header #header-trigger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+    z-index: 11;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 2px;
+}
