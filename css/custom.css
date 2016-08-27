@@ -255,6 +255,11 @@ body{
     	width: auto;
     	margin: 0 40px;
     }
+    
+    
+    .side-header.open-header #header-trigger {
+        display: none;
+    }
 
 }
 @media (max-width: 991px){
