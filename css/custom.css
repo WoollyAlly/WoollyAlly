@@ -131,9 +131,9 @@ body{
     }
     
     .side-header #logo {
-    float: none;
-    margin: 60px 0 40px;
-}
+        float: none;
+        margin: 60px 0 40px;
+    }
 
     .side-header #primary-menu, .side-header #primary-menu ul {
         float: none;
