@@ -134,6 +134,10 @@ body{
         float: none;
         margin: 60px 0 40px !important;
     }
+    
+    .side-header #logo img {
+        height: auto!important;
+    }
 
     .side-header #primary-menu, .side-header #primary-menu ul {
         float: none;
