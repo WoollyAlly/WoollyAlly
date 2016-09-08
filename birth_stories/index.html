@@ -17,8 +17,26 @@ layout: default
 
 							</div>
 
-							<div class="editable"><strong>When</strong>: 1st Wednesday of the month at 7pm - 9pm<br />&nbsp; &nbsp;<br /><strong>Where</strong>: Gentle Birth Care, Inc. 1024 North Blvd., Ste. 208 Oak Park, IL 60301 Office Phone Number: 708-386-4292<br />&nbsp; &nbsp;<br /><strong>Who</strong>: Carol Chamblin, DNP, APN, RN, IBCLC<br />Breast 'N Baby Lactation Services, Inc.<br />1020 Cedar Ave., Ste. 2E St. Charles, IL 60174<br />Cell Phone Number: 630-292-4528<br />EmailAddress: carolibclc@sbcglobal.net<br />Website: www.breastnbabylactation.com<br />&nbsp;&nbsp;<br /><strong>What</strong>: &nbsp;This class should be taken by all expectant mothers during your 7th or 8th month of pregnancy. Even if this is not your first baby, you will learn something new that will help you to breastfeed with ease.<br />&nbsp;&nbsp;<br />&nbsp; &nbsp;<br /><strong>How</strong>: You may call, text, or email Carol directly to register for the class. Or, you may contact Gentle Birth Care, Inc.<br />&nbsp; &nbsp;<br /><strong>Cost</strong>: $50.00 - Payment can be made by cash, check, or Visa/ Mastercard<br />&nbsp;&nbsp;<br />Carol has 30 years of experience assisting mothers and babies to successfully breastfeed. She has a Doctor of Nursing Practice in Lactation Care. Office appointments or home visits available.<br />&nbsp;&nbsp;<br />&nbsp;Her license to practice as an Advanced Practice Nurse permits her to be an in-network provider with Blue Cross/Blue Shield PPOs. Her biller will submit your claim(s) for insurance coverage.</div>
+						
+                        {% for midwife in site.birthstories %} 
+						<div class="col-md-6 bottommargin">
 
+							<div class="team team-list clearfix">
+								<div class="team-image">
+									<img src="{{ midwife.profile_image_path }}" alt="{{ midwife.title }}">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>{{midwife.title}}</h4><span>{{midwife.sub_title}}</span></div>
+									<div class="team-content">
+										<p>{{midwife.mini_bio}}</p>
+									</div>
+									<a href="{{midwife.url}}" data-lightbox="ajax">View more</a>
+								</div>
+							</div>
+
+						</div> 
+                        
+                        {% endfor %}
 
 						</div>
 
