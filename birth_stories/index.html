@@ -1,4 +1,35 @@
 ---
 layout: default
 ---
-	
+		<section id="content">
+
+
+				<!--Prenatal Breastfeeding Classes-->
+				<div class="section nobg notopmargin noborder bottommargin-sm">
+					<div class="container clearfix">
+
+						<div class=" nobottommargin">
+
+							<div class="heading-block">
+
+								<h2 class="editable">Birth Stories</h2>
+								<!--<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>-->
+
+							</div>
+
+                        {% for story in site.birthstories %} 
+    						<div class="col-md-6 bottommargin">
+                                <a href="{{story.url}}" data-lightbox="ajax">View more</a>
+    						</div> 
+                        
+                        {% endfor %}
+
+						</div>
+
+					</div>
+				</div>
+				<!--Prenatal Breastfeeding Classes-->
+				
+
+		</section>
+		<!-- #content end -->
