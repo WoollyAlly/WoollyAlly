@@ -21,7 +21,7 @@ collections:
     output: true
   assistants:
     output: true
-  birthStories:
+  birthstories:
     output: true
 
 
@@ -41,9 +41,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "birthStories"
+      type: "birthstories"
     values:
-      layout: "birthStories-layout"
+      layout: "birthstories-layout"
 
 
 # Build settings
