@@ -12,25 +12,9 @@ layout: default
 
 							<div class="heading-block">
 
-								<h2 class="editable">Birth Storiess</h2>
+								<h2 class="editable">Birth Stories</h2>
 								<!--<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>-->
-                        qw
 							</div>
-qwe
-				{% for issue in site.collections %}
-				
-				1
-  <li>
-    <h6 class="post-meta">
-      Issue {{ issue[1].label }}
-      &mdash;
-      {{ issue[1].date | date: "%b %-d, %Y" }}
-    </h6>
-    <h2>
-      {{ issue[1].title }}
-    </h2>
-  </li>
-{% endfor %}
                             {% for story in site.birthstories %} 
         						<div class="col-md-6 bottommargin">
                                     <a href="{{story.url}}" data-lightbox="ajax">View more</a>
