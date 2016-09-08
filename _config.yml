@@ -38,6 +38,12 @@ defaults:
       type: "assistants"
     values:
       layout: "assistants-layout"
+  -
+    scope:
+      path: ""
+      type: "birthStories"
+    values:
+      layout: "birthStories-layout"
 
 
 # Build settings
