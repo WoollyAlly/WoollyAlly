@@ -490,6 +490,9 @@
 		    
 			var barChartData = {
 				labels : ["2009","2010","2011","2012"],
+				options:{
+				  multiTooltipTemplate: "<%%=datasetLabel%> : <%%= value %>"  
+				},
 				datasets : [
 					{
                         label: "Total Births",
