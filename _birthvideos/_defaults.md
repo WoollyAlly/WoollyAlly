@@ -1,4 +1,4 @@
 ---
 title: Hillary
-url: CNM (Certified Nurse Midwife)
+youtube_url: CNM (Certified Nurse Midwife)
 ---
