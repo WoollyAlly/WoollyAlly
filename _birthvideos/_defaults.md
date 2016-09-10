@@ -1,4 +1,4 @@
 ---
 title:'Enter Name'
-video:
+video: test
 ---
