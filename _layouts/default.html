@@ -487,6 +487,7 @@
 	<script type="text/javascript">
 	    
 	    function initMaps() {
+	        
           var chicagoOffice = {lat: 41.949565, lng: -87.673363};
         
           var chicagoMap = new google.maps.Map(document.getElementById('map-chicago-office'), {
@@ -499,6 +500,33 @@
             map: chicagoMap,
             title: 'Hello World!'
           });
+	        
+          var oakParkOffice = {lat: 41.949565, lng: -87.673363};
+        
+          var oakParkMap = new google.maps.Map(document.getElementById('map-chicago-office'), {
+            zoom: 10,
+            center: oakParkOffice
+          });
+        
+          var oakParkMarker = new google.maps.Marker({
+            position: oakParkOffice,
+            map: oakParkMap,
+            title: 'Hello World!'
+          });
+	        
+          var wheatonOffice = {lat: 41.949565, lng: -87.673363};
+        
+          var wheatonMap = new google.maps.Map(document.getElementById('map-chicago-office'), {
+            zoom: 10,
+            center: wheatonOffice
+          });
+        
+          var wheatonMarker = new google.maps.Marker({
+            position: wheatonOffice,
+            map: wheatonMap,
+            title: 'Hello World!'
+          });
+          
         }
         
         initMaps();
