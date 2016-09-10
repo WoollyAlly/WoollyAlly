@@ -23,6 +23,7 @@ collections:
     output: true
   birthstories:
     output: true
+  birthvideos:
 
 
 defaults:
