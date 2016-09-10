@@ -1,6 +1,6 @@
 ---
 title:Enter Name
-facebook_url: 'https://www.facebook.com/CloudCannon'
+video: 'https://www.facebook.com/CloudCannon'
 ---
 
 Nothing
