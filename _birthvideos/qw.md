@@ -1,6 +1,6 @@
 ---
 title: qw
-youtube_url: 'https://www.youtube.com/watch?v=guA-QKZIwhY'
+youtube_url: 'https://www.youtube.com/embed/guA-QKZIwhY'
 ---
 
 
