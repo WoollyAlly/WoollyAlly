@@ -28,4 +28,35 @@ layout: default
 				
 
 		</section>
+		
+		<script type="text/javascript">
+
+		jQuery(window).load( function(){
+		    
+			var barChartData = {
+				labels : ["January","February","March","April","May","June","July"],
+				datasets : [
+					{
+						fillColor : "rgba(220,220,220,0.5)",
+						strokeColor : "rgba(220,220,220,1)",
+						data : [65,59,90,81,56,55,50]
+					}
+				]
+
+			};
+
+
+			var globalGraphSettings = {animation : Modernizr.canvas};
+
+			function showBarChart(){
+				var ctx = document.getElementById("barChartCanvas").getContext("2d");
+				new Chart(ctx).Bar(barChartData,globalGraphSettings);
+			}
+
+			$('#barChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showBarChart,300); },{accX: 0, accY: -155},'easeInCubic');
+
+		});
+
+	</script>
+
 		<!-- #content end -->
