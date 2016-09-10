@@ -1,6 +1,6 @@
 ---
 title:Enter Name
-_youtube_url: 
+_youtube_url: ''
 ---
 
 Nothing
