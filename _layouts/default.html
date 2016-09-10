@@ -485,9 +485,26 @@
 	<!-- END REVOLUTION SLIDER -->
 	
 	<script type="text/javascript">
+	    
+	    function initMap() {
+          var chicagoOffice = {lat: 41.949565, lng: -87.673363};
+        
+          var map = new google.maps.Map(document.getElementById('map-chicago-office'), {
+            zoom: 4,
+            center: myLatLng
+          });
+        
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+          });
+        }
+	
     	jQuery('#map-chicago-office').gMap({
     
     		 address: '	3717 N. Ravenswood, Ste 214, Chicago, IL',
+            center: {lat: 41.949565, lng: -87.673363},
     		 maptype: 'ROADMAP',
     		 zoom: 12,
     		 markers: [
