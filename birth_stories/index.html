@@ -3,6 +3,55 @@ layout: default
 ---
 		<section id="content">
 
+				<!--Birth Stories-->
+				<div class="section nobg notopmargin noborder bottommargin-sm">
+					<div class="container clearfix">
+
+						<div class=" nobottommargin">
+
+							<div class="heading-block">
+
+								<h2 class="editable">Birth Stories</h2>
+								<!--<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>-->
+							</div>
+							
+							
+                            <div class="owl-carousel image-carousel carousel-widget" 
+                                data-margin="20" data-nav="true" data-pagi="true"
+                                data-items-xxs="1" data-items-xs="3" data-items-sm="4" data-items-md="5">
+                            
+                            
+                                
+                                {% for story in site.birthstories %} 
+                                   
+            					<div class="oc-item">
+            					    <h3>{{story.title}}</h3>
+                            		<a href="{{story.url}}" data-lightbox="ajax">Read Story</a>
+                            	</div>
+                                
+                                {% endfor %}
+                                
+                                
+                                
+                                {% for story in site.birthstories %} 
+                                   
+            					<div class="oc-item">
+            					    <h3>{{story.title}}</h3>
+                            		<a href="{{story.url}}" data-lightbox="ajax">Read Story</a>
+                            	</div>
+                                
+                                {% endfor %}
+                            	
+                            </div>
+
+						</div>
+
+					</div>
+				</div>
+				<!--Birth Stories-->
+				
+				
+				
 				<!--Prenatal Breastfeeding Classes-->
 				<div class="section nobg notopmargin noborder bottommargin-sm">
 					<div class="container clearfix">
