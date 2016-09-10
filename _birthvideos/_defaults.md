@@ -1,4 +1,4 @@
 ---
 title:title
-youtube_url:
+youtube_url: https://www.youtube.com/watch?v=guA-QKZIwhY
 ---
