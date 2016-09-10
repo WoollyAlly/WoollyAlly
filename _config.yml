@@ -24,6 +24,7 @@ collections:
   birthstories:
     output: true
   birthvideos:
+    output: false
 
 
 defaults:
