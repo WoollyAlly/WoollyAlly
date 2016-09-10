@@ -71,25 +71,17 @@ layout: default
                             
                             
                                 
-                                {% for story in site.birthstories %} 
+                                {% for video in site.birthvideos %} 
                                    
             					<div class="oc-item">
-            					    <h3>{{story.title}}</h3>
-                            		<iframe width="560" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe>
+            					    <h3>{{video.title}}</h3>
+                            		<iframe width="560" height="315" src="{{video.youtube_url}}" frameborder="0" allowfullscreen></iframe>
                             	</div>
                                 
                                 {% endfor %}
                                 
                                 
                                 
-                                {% for story in site.birthstories %} 
-                                   
-            					<div class="oc-item">
-            					    <h3>{{story.title}}</h3>
-                            		<a href="{{story.url}}" data-lightbox="ajax">Read Story</a>
-                            	</div>
-                                
-                                {% endfor %}
                             	
                             </div>
 
