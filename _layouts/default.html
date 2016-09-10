@@ -486,24 +486,10 @@
 	
 	<script type="text/javascript">
 	    
-	    function initMaps() {
-	        
-	         var myLatLng = {lat: -25.363, lng: 131.044};
-
-              var map = new google.maps.Map(document.getElementById('map-chicago-office'), {
-                zoom: 4,
-                center: myLatLng
-              });
-            
-              var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'Hello World!'
-              });
-            	        
+	    function initMaps() {       
           var chicagoOffice = {lat: 41.949565, lng: -87.673363};
         
-          var chicagoMap = new google.maps.Map(document.getElementById('1'), {
+          var chicagoMap = new google.maps.Map(document.getElementById('map-chicago-office'), {
             zoom: 10,
             center: chicagoOffice
           });
