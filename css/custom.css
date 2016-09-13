@@ -358,3 +358,12 @@ body{
 #footer .widget>h4 {
     margin-bottom: 5px;
 }
+
+.midwife-lightbox img{
+    float:right;
+    padding-left:5px;
+}
+
+.midwife-lightbox p{
+    
+}
