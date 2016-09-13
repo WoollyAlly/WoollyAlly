@@ -516,7 +516,12 @@
                     type: 'bar',
                     data: data,
                     options: {
-                        stacked: true,
+                        scales: {
+                                xAxes: [{
+                                        stacked: true
+                                }]
+                            }
+                        }
                     }
                 });
 			}
