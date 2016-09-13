@@ -491,13 +491,13 @@
 			var barChartData = {
 				labels : ["2009","2010","2011","2012"],
 				options:{
-				  multiTooltipTemplate: "<%%=datasetLabel%> : <%%= value %>"  
 				},
 				datasets : [
 					{
                         label: "Total Births",
 						fillColor : "rgba(125, 168, 137,0.5)",
 						strokeColor : "rgba(125, 168, 137,1)",
+				  multiTooltipTemplate: "<%%=datasetLabel%> : <%%= value %>"  ,
 						data : [35,91,114,131]
 					},
 					{
