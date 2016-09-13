@@ -367,3 +367,11 @@ body{
 .midwife-lightbox p{
     text-align: justify;
 }
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
