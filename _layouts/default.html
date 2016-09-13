@@ -532,6 +532,12 @@
     					}
     				],
                 };
+                
+                var myBarChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: data,
+                    options: {}
+                });
 			}
 
 			$('#barChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showBarChart,300); },{accX: 0, accY: -155},'easeInCubic');
