@@ -1,18 +1,24 @@
-<section id="content" class="portfolio-ajax-modal" >
+    <section id="content" class="portfolio-ajax-modal" >
     
     		
-    		<div class="section nobg notopmargin noborder bottommargin-sm">
-    			<div class="clearfix">
+    		<div class="section nobg notopmargin noborder bottommargin-sm midwife-lightbox">
+    			<div class="container clearfix">
     
     				<div class=" nobottommargin">
                         
 						<div class="heading-block">
-
-							<h2>{{page.content_title}}</h2>
-							<!--<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>-->
-
+                            
+                            <div class="fancy-title title-bottom-border">
+        						<h1>{{page.title}}</h1>
+        					</div>
+        					
 						</div>
+						
+						
+    				    <img src="{{ page.profile_image_path }}" alt="{{ page.title }}">
+    				    
     				    <p>{{page.content}}</p>
+    				    
     
     				</div>
     
