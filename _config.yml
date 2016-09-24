@@ -47,6 +47,10 @@ defaults:
     values:
       layout: "birthstories-layout"
 
+asset_bundler:
+  compress:
+    js: true
+    css: true
 
 # Build settings
 markdown: kramdown
