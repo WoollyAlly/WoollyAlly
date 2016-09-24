@@ -49,8 +49,7 @@ defaults:
 
 asset_bundler:
   compress:
-    js: true
-    css: true
+    js: yu
 
 # Build settings
 markdown: kramdown
