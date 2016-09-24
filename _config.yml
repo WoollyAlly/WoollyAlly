@@ -49,7 +49,7 @@ defaults:
 
 asset_bundler:
   compress:
-    js: 'yui'
+    js: 'closure'
 
 # Build settings
 markdown: kramdown
