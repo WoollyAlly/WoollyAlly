@@ -61,7 +61,7 @@ layout: default
                             
                             
                                 
-                                {% for video in site.birthvideos %} 
+                                {% for video in site.birthvideos | sort: 'title' %} 
                                    
             					<div class="oc-item">
             					    <h3>{{video.title}}</h3>
