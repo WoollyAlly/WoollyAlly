@@ -17,35 +17,13 @@ social:
 
    
 collections:
-  midwives:
+  team:
     output: true
-  assistants:
+  services:
     output: true
-  birthstories:
+  projects:
     output: true
-  birthvideos:
-    output: false
 
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "midwives"
-    values:
-      layout: "midwife-layout"
-  -
-    scope:
-      path: ""
-      type: "assistants"
-    values:
-      layout: "assistants-layout"
-  -
-    scope:
-      path: ""
-      type: "birthstories"
-    values:
-      layout: "birthstories-layout"
 
 # Build settings
 markdown: kramdown
