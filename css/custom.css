@@ -1,3 +1,7 @@
 #header.full-header #logo{
     border:none;
 }
+
+#header.full-header #primary-menu > ul{
+    border:none;
+}
