@@ -80,7 +80,7 @@ body #side-panel.dark { background-color: #383838; }
 
 .dark #header:not(.transparent-header),
 #header.dark:not(.transparent-header) {
-	background-color: #7da889;
+	background-color: #333;
 	border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
@@ -177,7 +177,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #primary-menu:not(.not-dark) ul li .mega-menu-content,
 #primary-menu.dark ul ul,
 #primary-menu.dark ul li .mega-menu-content {
-	background-color: #7DA889;
+	background-color: #333;
 	border-color: #3F3F3F;
 	border-top-color: #1ABC9C;
 }
@@ -200,7 +200,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 #primary-menu.dark ul ul li:first-child { border-top: 0; }
 
 .dark #primary-menu:not(.not-dark) ul ul li > a,
-#primary-menu.dark ul ul li > a { color: #FFF !important; }
+#primary-menu.dark ul ul li > a { color: #999 !important; }
 
 .dark #primary-menu:not(.not-dark) ul ul li:hover > a,
 #primary-menu.dark ul ul li:hover > a {
