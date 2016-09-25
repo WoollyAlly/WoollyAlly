@@ -60,8 +60,9 @@ layout: default
                                 data-items="2">
                             
                             
-                                
-                                {% for video in site.birthvideos | sort: 'title' %} 
+                            
+                                {% assign sorted_videos = (site.birthvideos | sort: 'title') %}    
+                                {% for video in sorted_videos %} 
                                    
             					<div class="oc-item">
             					    <h3>{{video.title}}</h3>
