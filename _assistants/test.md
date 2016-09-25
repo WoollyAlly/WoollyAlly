@@ -1,7 +1,7 @@
 ---
-title: Test
-sub_title: CNM (Certified Nurse Midwife)
-profile_image_path: /images/gbc-17.jpg
+title: Aimee Clark
+sub_title: Assistant
+profile_image_path: '/images/gbc - aimee clark - assistant - rn,snm-min.jpg'
 mini_bio: Enter a mini bio.
 ---
 
