@@ -619,6 +619,7 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		pageTransition: function(){
+		    console.log("INIT PAGE TRANSITION")
 			if( $body.hasClass('no-transition') ) { return true; }
 
 			if( !$().animsition ) {
