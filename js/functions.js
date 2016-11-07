@@ -629,7 +629,9 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			window.onpageshow = function(event) {
+		    console.log("ON PAGE SHOW")
 				if(event.persisted) {
+		    console.log("RELOAD")
 					window.location.reload();
 				}
 			};
